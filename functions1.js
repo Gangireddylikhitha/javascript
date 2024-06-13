@@ -29,6 +29,11 @@ function square(sqa, sqb) {
 
 console.log(square(3, 4));
 
+function square1(num) {
+  let sqvalue = num ** 2;
+  return sqvalue;
+}
+console.log(square1(2));
 ///////////////////////////////////////////////////////////////////
 
 function highest(x, y) {
