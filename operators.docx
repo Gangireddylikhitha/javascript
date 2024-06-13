@@ -7,7 +7,7 @@ console.log(10 + +"10");
 console.log(10+"10"+10);  
 	101010(in addition,concatenation will done)
 console.log(10+ +"10" + 10);
-	30((+ operator before a string convert the string to a number )
+	30(+ operator before a string convert the string to a number )
 console.log(10 - "2");
 	8(concatenation only for + operator)
 console.log(10 - "2" - "8");
@@ -75,7 +75,7 @@ console.log(typeof undefined);
 console.log(typeof null);
 	object(null is a object type)
 console.log(typeof []);
-	object(
+	object
 console.log(typeof 1n);
 	bigint(n is bigint type)	
 console.log(typeof 1n+2n);
