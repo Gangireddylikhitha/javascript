@@ -54,3 +54,6 @@ function interest(p, r, t) {
   return total;
 }
 console.log(interest(10000, 10, 3));
+
+
+
