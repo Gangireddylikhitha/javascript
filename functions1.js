@@ -57,3 +57,9 @@ console.log(interest(10000, 10, 3));
 
 
 
+function demo(a,b){
+ 
+return a*b;
+
+}
+console.log(demo(3,4))
