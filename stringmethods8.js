@@ -22,10 +22,12 @@
 
 
 
-// let a="chaithra"
-// let reverse="";
-// for(i=a.length-1;i>0;i--){
-//     reverse=reverse+a[i]
+let a="chaithra"
+let reverse="";
+for(i=a.length-1;i>0;i--){
+    reverse=reverse+a[i]
     
-// }
-// console.log(reverse)
+}
+console.log(reverse)
+
+// o/p "arhtiah"
