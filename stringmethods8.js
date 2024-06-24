@@ -20,7 +20,7 @@
 // }
 // }console.log(sum)
 
-
+// o/p chaithralikhitha
 
 let a="chaithra"
 let reverse="";
