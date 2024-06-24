@@ -2,32 +2,32 @@
 
 
 
-//  let word="   chaithra     likhitha    ";
+ let word="   chaithra     likhitha    ";
 
-// // console.log(word.trim())
+// console.log(word.trim())
 
-//  let space=' ';
-// let sum="";
+ let space=' ';
+let sum="";
 
-// for(i=0;i<word.length;i++){
-// if(word[i]==space)
-//     {
+for(i=0;i<word.length;i++){
+if(word[i]==space)
+    {
 
-//     }
+    }
 
-// else{
-//     sum+=word[i];
-// }
-// }console.log(sum)
-
-
-
-let a="chaithra"
-let reverse="";
-for(i=a.length-1;i>0;i--){
-    reverse=reverse+a[i]
-    
+else{
+    sum+=word[i];
 }
-console.log(reverse)
+}console.log(sum)
+
+
+
+// let a="chaithra"
+// let reverse="";
+// for(i=a.length-1;i>0;i--){
+//     reverse=reverse+a[i]
+    
+// }
+// console.log(reverse)
 
 // o/p "arhtiah"
