@@ -15,10 +15,20 @@ if(word[i]==space)
 
     }
 
-else{
-    sum+=word[i];
+// else{
+//     sum+=word[i];
+// }
+// }console.log(sum)
+
+// o/p chaithralikhitha
+
+let a="chaithra"
+let reverse="";
+for(i=a.length-1;i>0;i--){
+    reverse=reverse+a[i]
+    
 }
-}console.log(sum)
+}console.log(reverse)
 
 
 
