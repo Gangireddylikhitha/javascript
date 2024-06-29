@@ -9,7 +9,8 @@
   
 //   }
   
-  
+
+
 //   for (key in students) {
   
 //       //values//
@@ -53,5 +54,6 @@ for([key,values] of Object.entries(friend)){
 // likhitha
 // chaithra
 // gangireddy
+
 
 

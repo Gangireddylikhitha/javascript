@@ -60,13 +60,13 @@
 // o/p [1,7,19]
 
 
-let arr3=[11,12,22,23,24];
-max1=arr3[0];
-max2=arr3[0];                                                        
-for(i=0;i<arr3.length;i++){
-    if(arr3[i]>max1){
-        max2=max1;
-        max1=arr3[i];
-    }  
-}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
-console.log(max2)
+// let arr3=[11,12,22,23,24];
+// max1=arr3[0];
+// max2=arr3[0];                                                        
+// for(i=0;i<arr3.length;i++){
+//     if(arr3[i]>max1){
+//         max2=max1;
+//         max1=arr3[i];
+//     }  
+// }                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
+// console.log(max2)

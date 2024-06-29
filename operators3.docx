@@ -11,7 +11,7 @@ console.log(10+ +"10" + 10);
 console.log(10 - "2");
 	8(concatenation only for + operator)
 console.log(10 - "2" - "8");
-	0((concatenation only for + operator)
+	0(concatenation only for + operator)
 console.log(10+"2" - "2");
 	100(first concatenation will done then it operates -)
 console.log(10>9>8);
