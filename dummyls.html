@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <form id="form1">
+    <input type="text" placeholder="Name" id="name">
+    <input type="email" placeholder="Email" id="email">
+    <input type="password" placeholder="password" id="password">
+    <button type="submit">submit</button>
+   </form> 
+
+   <h2>display data</h2>
+   <ul id="datalist"></ul>
+
+   <script>
+    result=""
+    let form1=document.getElementById("form1")
+
+    form1.addEventListener('submit',(e)=>{
+        e.preventDefault()
+
+    })
+
+
+function list(){
+    let userData = {
+            name: name.value,
+            email: email.value,
+            password: password
+        };
+result.push(userData)
+localStorage.setItem("userData",JSON.stringify(result))
+
+lists=document.createElement("li")
+
+
+}
+
+    name=document.getElementById("name")
+    email=document.getElementById("email")
+    password=document.getElementById("password")
+
+    
+
+
+
+
+
+
+   </script>
+</body>
+</html>

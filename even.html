@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>even or odd</h2>
+    <form>
+    <input type="text" id="input">
+    <button id="btn">submit</button>
+    <h1 id="result"></h1>
+    </form>
+    <script>
+        input=document.getElementById("input")
+        btn=document.getElementById("btn")
+        result=document.getElementById("result")
+        btn.addEventListener("click",(num)=>{
+            num.preventDefault();
+            num=input.value;
+            if(num==0||num==1){
+                result.textContent="neither prime nor composite"
+        
+            }
+        else{
+            for(i=2;i<num;i++){
+            if(num%2==0){
+                result.textContent="it is even"
+            }
+            else{
+                result.textContent="it is odd"
+            }
+        }
+
+    }
+            
+        })
+
+    </script>
+</body>
+</html>

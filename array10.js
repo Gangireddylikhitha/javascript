@@ -70,3 +70,13 @@
 //     }  
 // }                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
 // console.log(max2)
+
+
+function recursion(n){
+    if(n>100){
+    return
+}
+console.log(n)
+recursion(n+1)
+}
+recursion(1)

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        function html(x) {
+            setTimeout(() => {
+                document.write("html" + " ")
+                x();
+            }, 5000)
+        }
+        function css(x) {
+            setTimeout(() => {
+                document.write("css" + " ")
+                x();
+            }, 1000)
+        }
+
+        function javascript(x) {
+            setTimeout(() => {
+                document.write("javascript" + " ")
+                x();
+            }, 2000)
+        }
+
+        function react(x) {
+            setTimeout(() => {
+                document.write("react" + " ")
+                x();
+            }, 3000)
+        }
+        function angular(x){
+           setTimeout(()=>{
+              document.write("angular"+" ")
+                 x();
+           },2000)
+        }
+
+
+        javascript(()=>{
+        css(()=>{
+            angular(()=>{
+                html(()=>{
+                    react()
+            })
+           
+            })
+        })
+       })
+
+    </script>
+</body>
+
+</html>

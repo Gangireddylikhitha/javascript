@@ -51,6 +51,3 @@
 // // let k=Math.pow("HELLO",3)
 // // console.log(k)
 
-
-
-

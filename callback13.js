@@ -48,12 +48,13 @@
 //     }
 //     console.log(z)
 
-    // Create a function applyToEach that takes an array and a callback function. The applyToEach function should use the map function to apply the callback to each element of the array and return the new array.
-arr2= [2,4,7,9,5]
-let x=arr2.map(applyTOeach)
+//     // Create a function applyToEach that takes an array and a callback function. The applyToEach function should use the map function to apply the callback to each element of the array and return the new array.
+// arr2= [2,4,7,9,5]
+// let x=arr2.map(applyTOeach)
 
-    function applyTOeach(arr2){
-// console.log("hello",+arr2)
-        return arr2+5
-    }
-console.log(x)
+//     function applyTOeach(arr2){
+// // console.log("hello",+arr2)
+//         return arr2+5
+//     }
+// console.log(x)
+

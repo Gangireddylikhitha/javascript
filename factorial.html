@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>factorial generator</p>
+    <form>
+    <input type="text" id="input">
+    <button id="btn">submit</button>
+    <h1 id="result"></h1>
+    </form>
+    <script>
+        input=document.getElementById("input")
+        btn=document.getElementById("btn")
+        result=document.getElementById("result")
+        btn.addEventListener("click",(num)=>{
+            num.preventDefault();
+            num=input.value;
+            prd=1;
+            for(i=num;i>=1;i--){
+               prd*=i;
+            }
+            result.textContent=`fact is ${prd}`
+        })
+
+    </script>
+</body>
+</html>

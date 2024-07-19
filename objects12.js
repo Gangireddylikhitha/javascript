@@ -30,12 +30,26 @@
 
 
 
-// let arr = [{ a: 1, b: 2 }, { c: 3, d: 4 }, { e: 5, f: 6 }];
+let arr = [{ a: 1, b: 2 }, { c: 3, d: 4 }, { e: 5, f: 6 }];
 
 // function demo(arr) {
-//     let ans=[];
-//     for(i in arr){
-//         ans.push(Object.keys(arr[i]));
+
+    let ans=[];
+
+    for(obj of arr){
+        
+         for(key in obj){
+
+        // console.log(key)
+           ans.push(key)
+        }
+    }
+console.log(ans)
+
+
+
+//     for(keys in arr){
+//         ans.push(Object.keys(arr[keys]));
 //     }
 //     return ans;
 // }
@@ -99,17 +113,17 @@
 // Output: { a: 1, b: 2, c: 3 }
 
 
-let arr=[{ a: 1 }, { b: 2 }, { c: 3 }]
-let result={}
-for (let obj of arr) {
-        for (let key in obj) {
-            if (obj.hasOwnProperty(key)) {
-                result[key] = obj[key];
+// let arr=[{ a: 1 }, { b: 2 }, { c: 3 }]
+// let result={}
+// for (let obj of arr) {
+//         for (let key in obj) {
+//             if (obj.hasOwnProperty(key)) {
+//                 result[key] = obj[key];
 
-            }
-            // console.log(obj[key])
-            // console.log(result[key])
-        }
-    }
+//             }
+//             // console.log(obj[key])
+//             // console.log(result[key])
+//         }
+//     }
     
-    console.log(result); // { a: 1, b: 2, c: 3 }
+//     console.log(result); // { a: 1, b: 2, c: 3 }

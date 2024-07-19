@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <label for="num">enter a value</label>
+  <input type="text" id="num">
+  <button id ="btn">Click me</button>
+  <h3 id="result"></h3>
+  <script>
+    let d=document.getElementById("num");
+    let e=document.getElementById("result");
+    let f=document.getElementById("btn");
+    f.addEventListener("click",(num)=>{
+      let number=d.value;
+       let  otp=""
+      for(i=0;i<number;i++){
+        otp += Math.floor(Math.random()*10)
+      }
+      e.textContent=`otp is ${otp}`
+    } 
+  )
+  </script>
+</body>
+</html>
